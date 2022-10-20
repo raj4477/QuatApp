@@ -100,6 +100,16 @@ class _SignUpState extends State<SignUp> {
                  } )
     
                ])),
+                 SizedBox(height: size.height*0.018), 
+               Center(
+                 child: Container(width: 150,height: 40,
+                 decoration:const BoxDecoration(
+                  color: Colors.red,
+                  borderRadius: BorderRadius.all(Radius.circular(25))
+                 ),
+                 child: const Center(child: Text("Sign Up",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)),
+                 ),
+               )
             ]),
           ),
     

@@ -140,7 +140,17 @@ class _LogInState extends State<LogIn> {
                         ..onTap = () {
                           widget.c.animateTo((widget.c.index + 1) % 2);
                         })
-                ]))
+                ])),
+                   SizedBox(height: size.height*0.025), 
+               Center(
+                 child: Container(width: 150,height: 40,
+                 decoration:const BoxDecoration(
+                  color: Colors.red,
+                  borderRadius: BorderRadius.all(Radius.circular(25))
+                 ),
+                 child: const Center(child: Text("Log In",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)),
+                 ),
+               )
           ]),
         ),
       ),
