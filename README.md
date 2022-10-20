@@ -1,16 +1,26 @@
 # quantapp
+### This App fouces on fetching data from API and also manages State of the through GetX
 
-A new Flutter project.
+### GetX
+> GetX is an extra-light and powerful solution for Flutter. It combines high-performance state management, intelligent dependency injection and many more.
 
-## Getting Started
+### Librabry Used
+```yaml
+ # For Social Media Icon
+font_awesome_flutter: ^10.2.1 
 
-This project is a starting point for a Flutter application.
+# For Google Account Sign Up Functionality 
+google_sign_in: ^5.0.4
+firebase_auth: ^1.4.1
+firebase_core: ^1.3.0
 
-A few resources to get you started if this is your first Flutter project:
+# StateManagement
+get:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Http Response for fetching API's Data
+http:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# For Time & Date Formating
+intl:
+timeago: ^3.3.0
+```
