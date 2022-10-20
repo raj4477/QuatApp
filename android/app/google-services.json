@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525075375768",
+    "project_id": "quantapp-fc025",
+    "storage_bucket": "quantapp-fc025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525075375768:android:d514c04f6e4ee517d552ed",
+        "android_client_info": {
+          "package_name": "com.example.quantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525075375768-f8gd9koeo2h9ophd7imr0vc9emharkq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7eIHAzhJeP0U7iirB63vWNsvAvG-L6Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525075375768-f8gd9koeo2h9ophd7imr0vc9emharkq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
