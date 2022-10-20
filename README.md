@@ -24,3 +24,8 @@ http:
 intl:
 timeago: ^3.3.0
 ```
+
+### Video of the App
+
+https://user-images.githubusercontent.com/80347492/197054042-172a5c6a-df71-4cf7-b20b-4d22222a0a31.mp4
+
